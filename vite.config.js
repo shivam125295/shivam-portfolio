@@ -6,4 +6,8 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  server: {
+    allowedHosts: ['gk2vf3-5173.csb.app'],
+  },
+  
 });
